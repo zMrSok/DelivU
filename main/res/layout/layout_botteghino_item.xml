@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/img_gelateria"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/il_botteghino" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/overlay_color"/>
+
+    <TextView
+        android:id="@+id/txt_gelateria"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="fonts/PlayfairDysplay.ttf"
+        android:text="@string/gelateria"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+
+</FrameLayout>
